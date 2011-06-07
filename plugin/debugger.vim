@@ -142,10 +142,6 @@ nnoremap ,e :python debugger_watch_input("eval")<cr>A
 map <F5> :python debugger_run()<cr>
 map <F6> :python debugger_quit()<cr>
 
-map <F7> :python debugger_command('step_into')<cr>
-map <F8> :python debugger_command('step_over')<cr>
-map <F9> :python debugger_command('step_out')<cr>
-
 map <F11> :python debugger_context()<cr>
 map <F12> :python debugger_property()<cr>
 map <F11> :python debugger_watch_input("context_get")<cr>A<cr>
